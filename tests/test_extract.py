@@ -45,3 +45,7 @@ def test_deadline_floor_is_relative_to_today():
 
 def test_deadline_day_first():
     assert extract_deadline("Deadline: 15 March 2026.", today=date(2026, 6, 5)) == "2026-03-15"
+    # single-digit day with no deadline keyword -> _ANY_DATE fallback
+    assert extract_deadline("The program runs 3 January 2027.", today=date(2026, 6, 5)) == "2027-01-03"
+    # day digits embedded in a larger number must NOT match (else "115" -> "15 March")
+    assert extract_deadline("Catalog item 115 March 2026 edition.", today=date(2026, 6, 5)) is None

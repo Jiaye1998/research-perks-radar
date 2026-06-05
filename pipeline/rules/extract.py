@@ -31,7 +31,7 @@ def extract_amount(text: str) -> str | None:
 
 # ---- deadline -------------------------------------------------------------
 _MONTH_FIRST = r"[A-Z][a-z]+ \d{1,2},? \d{4}"
-_DAY_FIRST = r"\d{1,2} [A-Z][a-z]+ \d{4}"
+_DAY_FIRST = r"(?<!\d)\d{1,2} [A-Z][a-z]+ \d{4}"
 _NUMERIC = r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}"
 _ISO = r"\d{4}-\d{2}-\d{2}"
 
