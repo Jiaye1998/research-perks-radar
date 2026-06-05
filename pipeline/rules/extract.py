@@ -31,15 +31,16 @@ def extract_amount(text: str) -> str | None:
 
 # ---- deadline -------------------------------------------------------------
 _MONTH_FIRST = r"[A-Z][a-z]+ \d{1,2},? \d{4}"
+_DAY_FIRST = r"\d{1,2} [A-Z][a-z]+ \d{4}"
 _NUMERIC = r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}"
 _ISO = r"\d{4}-\d{2}-\d{2}"
 
 _DATE_NEAR = re.compile(
     r"(?:deadline|due|closes?|apply by|applications? close|submit by)\D{0,20}"
-    rf"({_MONTH_FIRST}|{_NUMERIC}|{_ISO})",
+    rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_NUMERIC}|{_ISO})",
     re.I,
 )
-_ANY_DATE = re.compile(rf"({_MONTH_FIRST}|{_ISO})")
+_ANY_DATE = re.compile(rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_ISO})")
 
 
 def _parse_date(raw: str, today: date) -> str | None:

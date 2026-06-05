@@ -41,3 +41,7 @@ def test_deadline_floor_is_relative_to_today():
     assert extract_deadline("Deadline January 1, 2031.", today=date(2035, 1, 1)) is None
     # Exactly at the floor is accepted (the check is >=).
     assert extract_deadline("Deadline January 1, 2034.", today=date(2035, 1, 1)) == "2034-01-01"
+
+
+def test_deadline_day_first():
+    assert extract_deadline("Deadline: 15 March 2026.", today=date(2026, 6, 5)) == "2026-03-15"
