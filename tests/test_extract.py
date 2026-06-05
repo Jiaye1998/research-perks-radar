@@ -1,10 +1,7 @@
-from datetime import date
-
+"""Golden tests pinning current behavior of rules/extract.py — no mocks."""
 import pytest
 
 from rules.extract import extract_amount, extract_deadline, extract_region
-
-TODAY = date(2026, 6, 5)
 
 
 @pytest.mark.parametrize("text,expected", [
@@ -13,7 +10,7 @@ TODAY = date(2026, 6, 5)
     ("Get 5000 free API credits.", "5000 credits"),
     ("No money mentioned here.", None),
 ])
-def test_extract_amount_dollar(text, expected):
+def test_extract_amount(text, expected):
     assert extract_amount(text) == expected
 
 
