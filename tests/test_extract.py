@@ -54,3 +54,9 @@ def test_deadline_day_first():
 def test_deadline_rolling_ignores_stray_date():
     text = "Applications reviewed on a rolling basis. Program launched January 1, 2025."
     assert extract_deadline(text, today=date(2026, 6, 5)) is None
+
+
+def test_concrete_deadline_wins_over_rolling():
+    # A keyword-anchored deadline still wins even when the page also says "rolling".
+    text = "Deadline: 2027-06-01. We accept on a rolling basis."
+    assert extract_deadline(text, today=date(2026, 6, 5)) == "2027-06-01"

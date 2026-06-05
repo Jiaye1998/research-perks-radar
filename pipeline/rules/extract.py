@@ -40,12 +40,12 @@ _DATE_NEAR = re.compile(
     rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_NUMERIC}|{_ISO})",
     re.I,
 )
-_ANY_DATE = re.compile(rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_ISO})")
 _NO_DEADLINE = re.compile(
     r"\b(rolling basis|rolling deadline|ongoing basis|no deadline|"
     r"open year[- ]round|accepted year[- ]round)\b",
     re.I,
 )
+_ANY_DATE = re.compile(rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_ISO})")
 
 
 def _parse_date(raw: str, today: date) -> str | None:
