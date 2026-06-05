@@ -1,0 +1,71 @@
+# sources.yaml — data sources for research-perks-radar
+# ---------------------------------------------------------------------------
+# Community contributions welcome! Add entries below and open a PR.
+#
+# Four source types are supported. Each maps to a fetcher in pipeline/fetchers/:
+#   curated  -> a specific page we scrape for perk links
+#   rss      -> an RSS/Atom feed URL
+#   search   -> a query string sent to the free search APIs (Tavily/Brave)
+#   reddit   -> a subreddit scanned via its public .json endpoint
+#
+# `category` is an optional hint (one of: ai_compute, funding, software,
+# data, awards, events). The rule engine will still re-classify, but a hint
+# improves accuracy for ambiguous sources.
+# ---------------------------------------------------------------------------
+
+curated:
+  - name: "OpenAI Researcher Access Program"
+    url: "https://openai.com/form/researcher-access-program/"
+    category: ai_compute
+  - name: "Anthropic Research / External Researcher Access"
+    url: "https://www.anthropic.com/research"
+    category: ai_compute
+  - name: "Google for Education / Research Credits"
+    url: "https://cloud.google.com/edu/researchers"
+    category: ai_compute
+  - name: "AWS Cloud Credit for Research"
+    url: "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/"
+    category: ai_compute
+  - name: "Microsoft Azure for Researchers"
+    url: "https://www.microsoft.com/en-us/research/academic-program/microsoft-azure-for-research/"
+    category: ai_compute
+  - name: "GitHub Education / Student & Researcher"
+    url: "https://education.github.com/"
+    category: software
+  - name: "JetBrains Free Educational Licenses"
+    url: "https://www.jetbrains.com/community/education/"
+    category: software
+  - name: "Overleaf for Education"
+    url: "https://www.overleaf.com/edu"
+    category: software
+
+rss:
+  - name: "Grants.gov New Opportunities"
+    url: "https://grants.gov/rss/GG_NewOppByCategory.xml"
+    category: funding
+  - name: "NSF Funding Opportunities"
+    url: "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+    category: funding
+
+search:
+  # Each string is run against the free search APIs. Keep them specific.
+  - query: "free AI API credits for academic researchers 2026"
+    category: ai_compute
+  - query: "research fellowship application deadline 2026"
+    category: awards
+  - query: "postdoc travel grant conference funding 2026"
+    category: events
+  - query: "cloud compute credits research grant program"
+    category: ai_compute
+  - query: "open dataset access program for researchers"
+    category: data
+  - query: "seed funding early career researcher grant 2026"
+    category: funding
+
+reddit:
+  - subreddit: "PhD"
+    category: null
+  - subreddit: "GradSchool"
+    category: null
+  - subreddit: "academia"
+    category: funding
