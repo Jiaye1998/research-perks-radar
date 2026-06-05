@@ -41,6 +41,11 @@ _DATE_NEAR = re.compile(
     re.I,
 )
 _ANY_DATE = re.compile(rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_ISO})")
+_NO_DEADLINE = re.compile(
+    r"\b(rolling basis|rolling deadline|ongoing basis|no deadline|"
+    r"open year[- ]round|accepted year[- ]round)\b",
+    re.I,
+)
 
 
 def _parse_date(raw: str, today: date) -> str | None:
@@ -61,6 +66,9 @@ def extract_deadline(text: str, today: date | None = None) -> str | None:
         d = _parse_date(m.group(1), today)
         if d:
             return d
+    # If the source says rolling/ongoing, don't guess a stray date.
+    if _NO_DEADLINE.search(text):
+        return None
     m = _ANY_DATE.search(text)
     if m:
         return _parse_date(m.group(1), today)

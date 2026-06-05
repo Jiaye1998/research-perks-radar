@@ -49,3 +49,8 @@ def test_deadline_day_first():
     assert extract_deadline("The program runs 3 January 2027.", today=date(2026, 6, 5)) == "2027-01-03"
     # day digits embedded in a larger number must NOT match (else "115" -> "15 March")
     assert extract_deadline("Catalog item 115 March 2026 edition.", today=date(2026, 6, 5)) is None
+
+
+def test_deadline_rolling_ignores_stray_date():
+    text = "Applications reviewed on a rolling basis. Program launched January 1, 2025."
+    assert extract_deadline(text, today=date(2026, 6, 5)) is None
