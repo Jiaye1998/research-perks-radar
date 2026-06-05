@@ -60,3 +60,12 @@ def test_concrete_deadline_wins_over_rolling():
     # A keyword-anchored deadline still wins even when the page also says "rolling".
     text = "Deadline: 2027-06-01. We accept on a rolling basis."
     assert extract_deadline(text, today=date(2026, 6, 5)) == "2027-06-01"
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("Receive €2,500 in support.", "€2,500"),
+    ("A £500 travel stipend.", "£500"),
+    ("Up to €3 million for consortia.", "€3M"),
+])
+def test_extract_amount_currencies(text, expected):
+    assert extract_amount(text) == expected

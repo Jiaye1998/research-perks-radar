@@ -9,7 +9,7 @@ from dateutil import parser as dateparser
 
 # ---- amount ---------------------------------------------------------------
 _AMOUNT = re.compile(
-    r"(?:US)?\$\s?([\d,]+(?:\.\d+)?)\s?(k|thousand|million|m|bn)?",
+    r"(?:US)?([$€£])\s?([\d,]+(?:\.\d+)?)\s?(k|thousand|million|m|bn)?",
     re.I,
 )
 _CREDIT = re.compile(r"([\d,]+)\s*(?:in\s+)?(?:free\s+)?(?:api\s+)?credits?", re.I)
@@ -18,11 +18,12 @@ _CREDIT = re.compile(r"([\d,]+)\s*(?:in\s+)?(?:free\s+)?(?:api\s+)?credits?", re
 def extract_amount(text: str) -> str | None:
     m = _AMOUNT.search(text)
     if m:
-        num = m.group(1)
-        unit = (m.group(2) or "").lower()
+        sym = m.group(1)
+        num = m.group(2)
+        unit = (m.group(3) or "").lower()
         suffix = {"k": "K", "thousand": "K", "million": "M",
                   "m": "M", "bn": "B"}.get(unit, "")
-        return f"${num}{suffix}"
+        return f"{sym}{num}{suffix}"
     c = _CREDIT.search(text)
     if c:
         return f"{c.group(1)} credits"
