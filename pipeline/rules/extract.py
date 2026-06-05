@@ -8,6 +8,7 @@ from datetime import datetime, date
 from dateutil import parser as dateparser
 
 # ---- amount ---------------------------------------------------------------
+# (?:US)? absorbs the "US$" prefix some sources use; harmless for € and £.
 _AMOUNT = re.compile(
     r"(?:US)?([$€£])\s?([\d,]+(?:\.\d+)?)\s?(k|thousand|million|m|bn)?",
     re.I,

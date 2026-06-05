@@ -11,6 +11,7 @@ TODAY = date(2026, 6, 5)
 @pytest.mark.parametrize("text,expected", [
     ("This grant provides $5,000 to researchers.", "$5,000"),
     ("Awards up to $2 million for labs.", "$2M"),
+    ("US$50,000 awarded.", "$50,000"),
     ("Get 5000 free API credits.", "5000 credits"),
     ("No money mentioned here.", None),
 ])
