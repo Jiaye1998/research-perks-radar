@@ -1,0 +1,27 @@
+name: Smoke sources
+
+on:
+  workflow_dispatch: {}
+  pull_request:
+    paths:
+      - "pipeline/sources.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install runtime deps
+        run: pip install -r requirements.txt
+      - name: Smoke fetch all sources (non-blocking)
+        continue-on-error: true
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: python pipeline/smoke_sources.py
