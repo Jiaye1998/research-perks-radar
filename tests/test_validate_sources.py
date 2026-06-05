@@ -1,7 +1,6 @@
-import pytest
+import yaml
 
 from validate_sources import validate, SOURCES
-import yaml
 
 
 def test_valid_minimal():
