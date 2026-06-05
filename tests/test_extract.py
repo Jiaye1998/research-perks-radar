@@ -36,5 +36,8 @@ def test_extract_region(text, expected):
 
 
 def test_deadline_floor_is_relative_to_today():
-    # A date two years before "today" is stale -> None, regardless of calendar year.
+    # Floor is date(today.year - 1, 1, 1); dates below it are rejected.
+    # With today=2035-01-01 the floor is 2034-01-01, so 2031-01-01 is stale.
     assert extract_deadline("Deadline January 1, 2031.", today=date(2035, 1, 1)) is None
+    # Exactly at the floor is accepted (the check is >=).
+    assert extract_deadline("Deadline January 1, 2034.", today=date(2035, 1, 1)) == "2034-01-01"
