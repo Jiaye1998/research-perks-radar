@@ -1,7 +1,11 @@
 """Golden tests pinning current behavior of rules/extract.py — no mocks."""
+from datetime import date
+
 import pytest
 
 from rules.extract import extract_amount, extract_deadline, extract_region
+
+TODAY = date(2026, 6, 5)
 
 
 @pytest.mark.parametrize("text,expected", [
@@ -19,7 +23,7 @@ def test_extract_amount(text, expected):
     ("Apply by 2026-09-01 for funding.", "2026-09-01"),
 ])
 def test_extract_deadline_month_first_and_iso(text, expected):
-    assert extract_deadline(text) == expected
+    assert extract_deadline(text, today=TODAY) == expected
 
 
 @pytest.mark.parametrize("text,expected", [
@@ -29,3 +33,8 @@ def test_extract_deadline_month_first_and_iso(text, expected):
 ])
 def test_extract_region(text, expected):
     assert extract_region(text) == expected
+
+
+def test_deadline_floor_is_relative_to_today():
+    # A date two years before "today" is stale -> None, regardless of calendar year.
+    assert extract_deadline("Deadline January 1, 2031.", today=date(2035, 1, 1)) is None

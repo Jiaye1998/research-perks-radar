@@ -30,28 +30,39 @@ def extract_amount(text: str) -> str | None:
 
 
 # ---- deadline -------------------------------------------------------------
+_MONTH_FIRST = r"[A-Z][a-z]+ \d{1,2},? \d{4}"
+_NUMERIC = r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}"
+_ISO = r"\d{4}-\d{2}-\d{2}"
+
 _DATE_NEAR = re.compile(
     r"(?:deadline|due|closes?|apply by|applications? close|submit by)\D{0,20}"
-    r"([A-Z][a-z]+ \d{1,2},? \d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{4}-\d{2}-\d{2})",
+    rf"({_MONTH_FIRST}|{_NUMERIC}|{_ISO})",
     re.I,
 )
-_ANY_DATE = re.compile(
-    r"([A-Z][a-z]+ \d{1,2},? \d{4}|\d{4}-\d{2}-\d{2})"
-)
+_ANY_DATE = re.compile(rf"({_MONTH_FIRST}|{_ISO})")
 
 
-def extract_deadline(text: str) -> str | None:
-    for rx in (_DATE_NEAR, _ANY_DATE):
-        m = rx.search(text)
-        if not m:
-            continue
-        try:
-            dt = dateparser.parse(m.group(1), fuzzy=True, default=datetime(2026, 1, 1))
-            # Only accept plausible future-ish deadlines.
-            if dt.date() >= date(2024, 1, 1):
-                return dt.date().isoformat()
-        except (ValueError, OverflowError):
-            continue
+def _parse_date(raw: str, today: date) -> str | None:
+    try:
+        dt = dateparser.parse(raw, fuzzy=True, default=datetime(today.year, 1, 1))
+    except (ValueError, OverflowError):
+        return None
+    # Reject implausibly old dates. Relative to today so it never rots.
+    if dt.date() >= date(today.year - 1, 1, 1):
+        return dt.date().isoformat()
+    return None
+
+
+def extract_deadline(text: str, today: date | None = None) -> str | None:
+    today = today or date.today()
+    m = _DATE_NEAR.search(text)
+    if m:
+        d = _parse_date(m.group(1), today)
+        if d:
+            return d
+    m = _ANY_DATE.search(text)
+    if m:
+        return _parse_date(m.group(1), today)
     return None
 
 
