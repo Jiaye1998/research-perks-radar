@@ -52,9 +52,6 @@ curated:
   - name: "AWS Open Data registry datasets for researchers"
     url: "https://registry.opendata.aws/"
     category: data
-  - name: "Registry of Research Data Repositories (re3data)"
-    url: "https://www.re3data.org/"
-    category: data
   - name: "Machine Learning Summer School travel grants and scholarships"
     url: "https://www.mlss.cc/"
     category: events

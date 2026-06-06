@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-05T21:30:22.891536+00:00",
-  "count": 36,
+  "generated_at": "2026-06-06T00:40:27.958323+00:00",
+  "count": 35,
   "by_category": {
     "ai_compute": 16,
     "funding": 3,
     "software": 4,
-    "data": 8,
+    "data": 7,
     "awards": 3,
     "events": 2
   },
@@ -40,22 +40,6 @@
       "source": "rss: NSF Funding Opportunities",
       "summary": "Letter of Intent Deadline Date: June 16, 2026 Program Guidelines: NSF 26-508 TechAccess: AI‑Ready America is a national-scale initiative to accelerate Artificial Intelligence (AI) readiness and adoption across the U.S. by strengthening coordination, leveraging partnerships and resources, filling gaps, and scaling what works—so local and state priorities can ... More at https://www.nsf.gov/funding/",
       "score": 64,
-      "date_found": "2026-06-05"
-    },
-    {
-      "id": "b860ff6a686b",
-      "title": "Home | re3data.org",
-      "category": "data",
-      "provider": "re3data.org",
-      "amount": null,
-      "deadline": "2026-06-05",
-      "days_left": 0,
-      "status": "closing_soon",
-      "region_restrictions": null,
-      "url": "https://re3data.org/",
-      "source": "curated: Registry of Research Data Repositories (re3data)",
-      "summary": "",
-      "score": 44,
       "date_found": "2026-06-05"
     },
     {
