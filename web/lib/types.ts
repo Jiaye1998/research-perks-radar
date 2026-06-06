@@ -21,6 +21,8 @@ export interface Perk {
   summary: string;
   score: number;
   date_found: string;
+  first_seen?: string;
+  is_new?: boolean;
   // added client-side after CV matching:
   fit?: number;
   fit_reason?: string;

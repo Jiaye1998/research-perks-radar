@@ -296,6 +296,11 @@ a {
   color: var(--accent);
   font-weight: 600;
 }
+.tag.new {
+  background: #e8f7ee;
+  color: #0c8a5b;
+  font-weight: 600;
+}
 .card-foot {
   display: flex;
   justify-content: space-between;

@@ -30,6 +30,7 @@ export default function PerkCard({
         {perk.summary && <p className="desc">{perk.summary}</p>}
 
         <div className="meta-row">
+          {perk.is_new && <span className="tag new">🆕 New</span>}
           {perk.fit != null && (
             <span className="tag fit">🎯 {perk.fit}% fit</span>
           )}

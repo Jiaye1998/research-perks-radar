@@ -10,7 +10,7 @@ import hashlib
 import json
 import os
 import sys
-from datetime import datetime, date, timezone
+from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 
 import yaml
@@ -97,6 +97,47 @@ def _provider(candidate) -> str:
     return netloc or candidate.source
 
 
+NEW_WINDOW_DAYS = 7
+
+
+def load_prev_perks() -> list:
+    """Perks from the previous run's perks.json (used to persist first_seen)."""
+    out = DATA / "perks.json"
+    if not out.exists():
+        return []
+    try:
+        return json.loads(out.read_text(encoding="utf-8")).get("perks", [])
+    except (ValueError, OSError):
+        return []
+
+
+def annotate_recency(perks: list, prev_perks: list, today: date,
+                     window_days: int = NEW_WINDOW_DAYS) -> None:
+    """Set `first_seen` (persisted across runs) and `is_new` on each perk.
+
+    A perk is "new" if it first appeared within `window_days`. Perks that were
+    already present in the previous run but carry no first_seen record (e.g. the
+    first run with this field) are treated as old, so nothing is falsely flagged
+    new on bootstrap."""
+    prev_first = {p["id"]: p["first_seen"]
+                  for p in prev_perks if p.get("first_seen")}
+    prev_ids = {p["id"] for p in prev_perks}
+    old_sentinel = (today - timedelta(days=window_days + 1)).isoformat()
+    for p in perks:
+        pid = p["id"]
+        if pid in prev_first:
+            first_seen = prev_first[pid]
+        elif pid in prev_ids:
+            first_seen = old_sentinel
+        else:
+            first_seen = today.isoformat()
+        p["first_seen"] = first_seen
+        try:
+            p["is_new"] = (today - date.fromisoformat(first_seen)).days <= window_days
+        except ValueError:
+            p["is_new"] = False
+
+
 def main() -> None:
     DATA.mkdir(exist_ok=True)
     HISTORY.mkdir(exist_ok=True)
@@ -106,11 +147,14 @@ def main() -> None:
     raw = dedup(raw)
     print(f"  after dedup: {len(raw)}", flush=True)
 
+    prev_perks = load_prev_perks()
     perks = []
     for c in raw:
         p = build_perk(c)
         if p:
             perks.append(p)
+
+    annotate_recency(perks, prev_perks, date.today())
 
     perks.sort(key=lambda p: (
         0 if p["status"] == "closing_soon" else 1,
