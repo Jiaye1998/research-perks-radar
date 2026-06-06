@@ -11,6 +11,11 @@
 # `category` is an optional hint (one of: ai_compute, funding, software,
 # data, awards, events). The rule engine will still re-classify, but a hint
 # improves accuracy for ambiguous sources.
+#
+# Validate your edits before opening a PR (no network, this is the CI gate):
+#     python validate_sources.py
+# Optionally check a source actually returns candidates:
+#     python smoke_sources.py
 # ---------------------------------------------------------------------------
 
 curated:

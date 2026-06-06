@@ -1,0 +1,33 @@
+name: Suggest a source
+description: Propose a new data source for the radar
+title: "[source] <name of the program / feed>"
+labels: ["source-suggestion"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Source type
+      options: [curated, rss, search, reddit]
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: URL / query / subreddit
+      description: A URL (curated/rss), a search query, or a subreddit name.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [ai_compute, funding, software, data, awards, events]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this relevant to researchers?
+      description: One or two sentences. On-topic perks only (no general ads/admissions).
+    validations:
+      required: true
