@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T03:30:35.873720+00:00",
+  "generated_at": "2026-06-06T03:47:49.398994+00:00",
   "count": 102,
   "by_category": {
     "ai_compute": 28,
@@ -24,7 +24,9 @@
       "source": "rss: NSF Funding Opportunities",
       "summary": "Full Proposal Deadline Date: June 15, 2026 Program Guidelines: NSF 20-597 The National Science Foundation (NSF) invites investigators at U.S. organizations to submit proposals for Doctoral Dissertation Research Improvement Grants (DDRIGs) to the Arctic Sciences Section, Office of Polar Programs (OPP) to conduct dissertation-level research about and related to the ... More at https://www.nsf.gov/fu",
       "score": 64,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "d140b3d111e8",
@@ -40,7 +42,9 @@
       "source": "rss: NSF Funding Opportunities",
       "summary": "Letter of Intent Deadline Date: June 16, 2026 Program Guidelines: NSF 26-508 TechAccess: AI‑Ready America is a national-scale initiative to accelerate Artificial Intelligence (AI) readiness and adoption across the U.S. by strengthening coordination, leveraging partnerships and resources, filling gaps, and scaling what works—so local and state priorities can ... More at https://www.nsf.gov/funding/",
       "score": 64,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "b7e9ef198e9c",
@@ -56,7 +60,9 @@
       "source": "search: cloud compute credits research grant pro",
       "summary": "We have partnered with Google to offer researchers the chance to submit proposals and receive up to $100,000 of credits to be used on Google Cloud in",
       "score": 74,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "e9e928355552",
@@ -72,7 +78,9 @@
       "source": "curated: Google for Education / Research Credits",
       "summary": "Make tomorrow’s research breakthroughs possible today. Accelerate your research with training, free credits, and resources from Google Cloud.",
       "score": 72,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "55b5ca6df069",
@@ -88,7 +96,9 @@
       "source": "curated: OpenAI Researcher Access Program",
       "summary": "",
       "score": 68,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "55c970accc61",
@@ -104,7 +114,9 @@
       "source": "curated: AWS Cloud Credit for Research",
       "summary": "The AWS Cloud Credit for Research program provides AWS Promotional Credit to researchers that are using technology to accelerate innovation.",
       "score": 68,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "346083d47ee9",
@@ -120,7 +132,9 @@
       "source": "curated: Cold Spring Harbor Laboratory meetings and courses scholarships",
       "summary": "Cold Spring Harbor Meetings and Courses - Long Island, New York. Scientific Conferences and Courses For Research and Education",
       "score": 66,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "691719fcecb4",
@@ -136,7 +150,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 62,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "6f05cb342226",
@@ -152,7 +168,9 @@
       "source": "curated-link: GitHub Education / Student & Researcher",
       "summary": "",
       "score": 62,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "ec002143adce",
@@ -168,7 +186,9 @@
       "source": "curated: JetBrains Free Educational Licenses",
       "summary": "Access all JetBrains IDEs, plugins, and courses for your studies and future tech career.",
       "score": 62,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "a0f2f918a0db",
@@ -184,7 +204,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "04927f180bfe",
@@ -200,7 +222,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "90b213f56d2d",
@@ -216,7 +240,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "83488eb34eb9",
@@ -232,7 +258,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "481e85b6089a",
@@ -248,7 +276,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "76df117bc00d",
@@ -264,7 +294,9 @@
       "source": "curated-link: AWS Cloud Credit for Research",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "56b54b2f25ed",
@@ -275,12 +307,14 @@
       "deadline": null,
       "days_left": null,
       "status": "unknown",
-      "region_restrictions": "EU/EEA",
+      "region_restrictions": null,
       "url": "https://microsoft.com/en-us/research/academic-program/microsoft-azure-for-research",
       "source": "curated: Microsoft Azure for Researchers",
       "summary": "Learn how college institutions can reimagine the campus experience with Microsoft Education’s higher education solutions. Empower your students with Microsoft 365’s suite of product, including AI tools like Microsoft Copilot.",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "7be4800de0b6",
@@ -296,7 +330,9 @@
       "source": "curated: GitHub Education / Student & Researcher",
       "summary": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "42f97bb9e2d5",
@@ -312,7 +348,9 @@
       "source": "curated: Overleaf for Education",
       "summary": "Overleaf is an online LaTeX editor for universities and institutions that enables your students and staff to collaborate on research in real time.",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "7879a709f327",
@@ -328,7 +366,9 @@
       "source": "curated: L'Oreal-UNESCO For Women in Science Fellowship awards",
       "summary": "The World needs Science, and Science needs Women",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "9c95c387ed0c",
@@ -344,7 +384,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "## Use saved searches to filter your results more quickly. # How to get free OpenAI API credits for testing and development projects #181068. If I were building a small test project today:  I’d prepare to spend a small amount on prepaid credits (just enough to cover a few dozen or hundred runs). They won't provide you credits for toggling this option.**  If your goal is just experimenting or build",
       "score": 56,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "8e60680003fc",
@@ -360,7 +402,9 @@
       "source": "search: open dataset access program for research",
       "summary": "# Research Data Management Resources: Open and Publicly Available Data. Data management best practices, funder mandates, data sharing options, and local resources for research data management. * Open and Publicly Available Data. \"**Open data**\" is data that can be freely used, reused and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike (from the Open ",
       "score": 56,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "a606357046ab",
@@ -376,7 +420,9 @@
       "source": "search: research data repository access program ",
       "summary": "# Upcoming public access requirements for federally funded publications and data. Coming public access rules for federal research and data. Starting in January 2026, authors with federally sponsored projects will need to publicly share their research publications and supporting data immediately and without embargo. Authors must deposit the accepted manuscript version of an article in a repository ",
       "score": 56,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "7b4609651ac1",
@@ -392,7 +438,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "# Introducing Anthropic's AI for Science Program. Today, we’re launching Anthropic's AI for Science program – a new initiative designed to accelerate scientific research and discovery through access to our API. We're particularly interested in supporting applications where AI can assist in accelerating processes related to understanding complex biological systems, analyzing genetic data, accelerat",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "e4b12ab64cf1",
@@ -408,7 +456,9 @@
       "source": "search: postdoc travel grant conference funding ",
       "summary": "Applications for the Winter 2026 PSA Travel Grants are now open! Please apply here (https://forms.gle/v72CyALAJMSkbQJEA) by February 7th 2026",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "a3af2b23df24",
@@ -424,7 +474,9 @@
       "source": "search: postdoc travel grant conference funding ",
       "summary": "The Postdoctoral Travel Grants program has been created to provide postdoctoral scholars with funds to defray the cost of attending a conference to present",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "3175b340cdc7",
@@ -440,7 +492,9 @@
       "source": "search: cloud compute credits research grant pro",
       "summary": "#### What can the Google Cloud credits awarded through this program be used for? Cloud credits can be used for most computing services on Google Cloud such as storage, compute, and data analysis. Credits must only be used for research described in the proposal section of your application. **Limitations:** Google Cloud credits cannot be used for Maps Platform products or for Google Cloud support pa",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "281fcb40269f",
@@ -456,7 +510,9 @@
       "source": "search: cloud compute credits research grant pro",
       "summary": "Apply for Google Cloud research credits and access computing power to help advance your research, develop ideas, and make cutting-edge discoveries.",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "fd93c10b51e6",
@@ -472,7 +528,9 @@
       "source": "search: open dataset access program for research",
       "summary": "Open access repository where researchers can preserve and share their research outputs, including figures, datasets, images, and videos.",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "23860077b440",
@@ -488,7 +546,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "A nine month programme aimed at fostering the development of new research initiatives while supporting the career progression of Early Career Researchers (ECRs)",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "157fa1be3613",
@@ -504,7 +564,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "A **.gov** website belongs to an official government organization in the United States. The U.S. National Science Foundation offers grants and supplemental funding to early-career researchers working across a wide range of research areas. Early-career researchers are also eligible (and encouraged) to compete for NSF's core grants, special initiatives and other funding mechanisms. Proposals are acc",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "63ab343512ef",
@@ -520,7 +582,9 @@
       "source": "search: research data repository access program ",
       "summary": "The 2026 dkNET Summer of Data Student Program provides students an opportunity to utilize the dkNET tools and resources in a research project. Students will",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "b02d52814d9e",
@@ -536,7 +600,9 @@
       "source": "search: research data repository access program ",
       "summary": "It's hard to believe, at least for us, but the 2026 ICPSR Summer Program is less than a month away! From May 18 to August 14, we'll be holding Topical Workshops",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "f8ff0e300c90",
@@ -552,7 +618,9 @@
       "source": "search: research data repository access program ",
       "summary": "# Data Repositories. There are many resources to help you select an appropriate repository to share your data:. * NIH Data Sharing Repositories: to help researchers locate an appropriate resource for sharing their data, as well as to promote awareness of resources where datasets can be located for reuse, see these lists of domain-specific and generalist data repositories maintained by the National",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "1d733377cd1e",
@@ -568,7 +636,9 @@
       "source": "search: research data repository access program ",
       "summary": "Encompasses issues related to the management, sharing, and stewardship of scientific data, including policies on public access, storage, privacy, and security.",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "a4e64786a19e",
@@ -584,7 +654,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "2026 EXPAND Data Analysis Request for Proposals. Through this Request for Proposals (RFP), TRISH seeks to grant data access to proposals that utilize existing EXPAND data to accelerate the generation of evidence addressing HRR risks and deliver insights to support astronaut health and performance during current and future exploration missions. This opportunity specifically invites proposals for se",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "2cc735dc5b74",
@@ -600,7 +672,9 @@
       "source": "search: early career researcher award nomination",
       "summary": "Link to University of Wisconsin-Madison home page. # Shaw Early Career Research Award 2026. The Shaw Early Career Research Award, sponsored by the Greater Milwaukee Foundation (GMF), is dedicated to fostering advancements in the fields of Biochemistry, Biological Sciences, and Cancer research. This award specifically targets early career researchers at the University of Wisconsin-Madison. Candidat",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "e140796797dc",
@@ -616,7 +690,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "# College of Liberal Arts and Social Sciences. # Graduate Student Research Grants. ## CLASS Summer Graduate Fellowship for Research Excellence. This endowed competitive fellowship provides summer funding to support the research. competitive fellowship is to promote graduate student research excellence in the College. of Liberal Arts and Social Sciences at the University of Houston. aim to help stu",
       "score": 52,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "8ee69fc5cde3",
@@ -632,7 +708,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "### **2026 Research Seed Funding Grant**. $25,000 grants will be awarded to provide funds to develop exciting investigator-initiated concepts, which will hopefully lead to successful longer term project funding from the NIH or equivalent funding sources. Funding for grant recipients will begin on August 31st of the award year. Research results will be submitted for presentation at future AAPM meet",
       "score": 50,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "0f2aedeeb39c",
@@ -648,7 +726,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "Society for the Study of Reproduction. ## SSR Emerging Investigator Grant — Members Only. As a global society whose mission is to advance the science of reproduction, fertility, and development for the benefit of humans and animals, the SSR welcomes proposals from all countries and on all reproduction-related subject areas. Proposals that do not follow submission guidelines will not be considered ",
       "score": 46,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "ab96be9240ab",
@@ -664,7 +744,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "Get matched with vetted scholarships and enter our $10,000 No-Essay Scholarship. + Easy Scholarships to Apply For. Scholarships Top 11 Summer School Scholarships in May 2026. + Easy Scholarships to Apply For. This ensures that all of our content is up-to-date, useful, accurate, and thorough. # Top 11 Summer School Scholarships in May 2026. He has written over 300 articles on college admissions, fi",
       "score": 46,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "f67d6a25e722",
@@ -680,7 +762,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "# Anthropic Research Credits 2026: Free Claude Credits for Researchers. Anthropic research credit programs in 2026. Free Claude API credits for academic researchers, scientists, and AI safety work. Anthropic offers research-specific credit programs for academics, AI safety researchers, scientists, and qualifying nonprofits. Application strategies and the full list of research credit tracks are at ",
       "score": 40,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "26da6b758bea",
@@ -696,7 +780,9 @@
       "source": "search: postdoc travel grant conference funding ",
       "summary": "Five recipients from each meeting will receive a $1,000 award to defray expenses associated with travel to ASM Microbe 2026 and complimentary registration.",
       "score": 40,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "db4ff17f99e7",
@@ -712,7 +798,9 @@
       "source": "search: cloud compute credits research grant pro",
       "summary": "Google Cloud Platform's Research Credits award program, which awards $5,000 in GCP credits to faculty researchers (smaller awards are available",
       "score": 40,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "0510640e6753",
@@ -728,7 +816,9 @@
       "source": "search: cloud compute credits research grant pro",
       "summary": "PhD students may apply once a year for credits of up to $1,000 USD. Faculty and Postdoctoral researchers are eligible for one award of up to $5,000 USD.",
       "score": 40,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "76bf212315b1",
@@ -744,7 +834,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "# AI Compute Grants in 2026: How to Get Free GPU Time from NAIRR, NSF ACCESS, DOE, and Cloud Providers. Compute is the bottleneck for most AI research, and the bottleneck is expensive. A single training run on a frontier model can cost millions in GPU hours. But scattered across federal agencies, national laboratories, and corporate programs are billions of dollars in free compute allocations that",
       "score": 38,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "c5adea5030be",
@@ -760,7 +852,9 @@
       "source": "search: research fellowship application deadline",
       "summary": "### Dates related to eligibility have been updated below and are valid for the 2026 application cycle. | November 1: | Proposed supervisor and reference letters deadline – 8:00 PM Eastern Time |. You may apply before defending your thesis, but must have your PhD (or MD/DVM) degree by the time the award is activated on August 1, 2027. A complete application means that an applicant has completed and",
       "score": 38,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "539a32505c8b",
@@ -776,7 +870,9 @@
       "source": "curated-link: OpenAI Researcher Access Program",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "8af3438d67cd",
@@ -792,7 +888,9 @@
       "source": "curated-link: OpenAI Researcher Access Program",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "58ca40849c95",
@@ -808,7 +906,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "86dda67dbad2",
@@ -824,7 +924,9 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "20388d6c7718",
@@ -840,7 +942,9 @@
       "source": "curated-link: AWS Cloud Credit for Research",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "ad71e73035b8",
@@ -856,7 +960,9 @@
       "source": "curated: Schmidt Science Fellowship for early career researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "c587172bb33e",
@@ -872,7 +978,9 @@
       "source": "curated-link: L'Oreal-UNESCO For Women in Science Fellowship awards",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "ce4c31e245bc",
@@ -888,7 +996,9 @@
       "source": "curated: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "ac183edaf26a",
@@ -904,7 +1014,9 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "9e89bbb93ab6",
@@ -920,7 +1032,9 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "e29044220730",
@@ -936,7 +1050,9 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "3696abbcadec",
@@ -952,7 +1068,9 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "b3b81708d40a",
@@ -968,7 +1086,9 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "8226a9773f1b",
@@ -984,7 +1104,9 @@
       "source": "curated: Machine Learning Summer School travel grants and scholarships",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "8559f9a63288",
@@ -1000,7 +1122,9 @@
       "source": "search: conference travel grant application rese",
       "summary": "+ Journal of the Middle East and Africa. | 2026 Travel Grant Program The ASMEA **Travel Grant Program** provides funds primarily to Ph.D. students, post-Docs, and junior faculty studying the Middle East or Africa interested in presenting their research at the Annual ASMEA Conference. Funds provided through this program may be used to cover any expenses associated with attending the Annual ASMEA Co",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "64f4302abf36",
@@ -1016,7 +1140,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "Topic :- Stop Paying for API Keys! Get Unlimited Access to SOTA Models (2026 Guide) Stop burning money on OpenAI credits!",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "5fb87a225127",
@@ -1032,7 +1158,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "# What is the External Researcher Access Program? Our External Researcher Access Program is specifically designed to support and lower the barrier to entry for researchers working on AI safety and alignment topics that we consider high priority by providing free API credits. If you are an alignment researcher and are interested in receiving free API credits for AI safety and alignment research pur",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "a00a21afcfad",
@@ -1048,7 +1176,9 @@
       "source": "search: postdoc travel grant conference funding ",
       "summary": "## Evolution Meeting Awards and Grants. The following awards facilitate attendance at the in-person or virtual portion of the annual Evolution meeting. *Travel award recipients are not eligible to volunteer at the in-person conference.*. SSE Undergraduate Community at Evolution Program (in-person). SSE Graduate Student and Postdoc Registration Waiver (in-person). SSE International Travel Stipends ",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "bd74cf4492d0",
@@ -1064,7 +1194,9 @@
       "source": "search: open dataset access program for research",
       "summary": "# Open data. As a proactive partner to the research community, Springer Nature is pioneering new approaches to data sharing and open data. We’re committed to supporting researchers in sharing their data, helping to make data sharing the new normal. ### Research Data community. Get free advice from our expert team on how and where to share your research data, according to your specific research com",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "2a563dc0acf9",
@@ -1080,7 +1212,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "Apply for Dewey's 2025 Research Data Grant program to receive up to two years of free access to mobility, consumer, weather, company data, and more. Open to",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "b005e6dc686a",
@@ -1096,7 +1230,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "... students — and yes, they cover your costs. Programs to know CERN Summer Student Program• 9 weeks | June–Aug 2026 • Open to all",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "2739b6504677",
@@ -1112,7 +1248,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "# List of Summer Programs in the World 2026 (Fully Funded). This post is about the **List of Summer Programs in the World in 2026**. These Programs are open to International students from all over the world. The List consists of Summer Exchange Programs, Internships, Summer Schools, Camps, and Summer Fellowships in different countries. Are you ready to explore the List of Summer Programs for the Y",
       "score": 34,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "f0feeefeb9f1",
@@ -1128,7 +1266,9 @@
       "source": "search: free AI API credits for academic researc",
       "summary": "Specially for 15k requests. However, you can apply to Google Academic Research Credit with your project proposal and see if that gets approved.",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "7ee184e778ba",
@@ -1144,7 +1284,9 @@
       "source": "search: research fellowship application deadline",
       "summary": "The African Research Universities Alliance (ARUA), with support from the Mastercard Foundation and the Carnegie Corporation of New York, is launching this Early-Career Research Fellowship program. The initiative will fund up to **forty-two (42) early-career researchers** to conduct globally competitive research at the host and affiliated institutions of ARUA’s thirteen (13) Centres of Excellence (",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "23e8a4a434a1",
@@ -1160,7 +1302,9 @@
       "source": "search: research fellowship application deadline",
       "summary": "| **Application opens on Proposal Central:** | **Application due on or before:** | **Applies to Level 1 Candidates\\***  **Degree conferred between\\*\\*:** | **Applies to Level 1 Candidates\\***  **Joined Sponsor's Lab on or after:** | **Selection meeting date:** | **Award begins first day of\\*\\*\\*:** |. *\\*\\*\\*Applicants will be notified of the outcome of their application in the week following the ",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "59795975cee2",
@@ -1176,7 +1320,9 @@
       "source": "search: postdoc travel grant conference funding ",
       "summary": "There are three travel grant categories: AOS General Travel Grants for Students & Postdocs. Student applicants do not need to be members of the AOS when they",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "9d81f1949c63",
@@ -1192,7 +1338,9 @@
       "source": "search: cloud compute credits research grant pro",
       "summary": "# How to apply for and get compute grants (for students). In the past year or so, some friends and I have been applying for compute grants for various projects. This is because cloud credits evaporate quickly at commercial GPU rates, whereas HPC allocations typically translate to far more actual compute for equivalent writing effort. * **NSF ACCESS** ⭐ — I consider this to be the best place to sta",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "5c8f5ab7cd05",
@@ -1208,7 +1356,9 @@
       "source": "search: open dataset access program for research",
       "summary": "An official website of the United States government. A **.gov** website belongs to an official government organization in the United States. The Open Data Program provides the framework, infrastructure, and tools to make NIST data, software, and publications findable, accessible, interoperable, and reusable by businesses, researchers, other stakeholders, and the public. | Open Data Portal  This po",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "30239eeefc72",
@@ -1224,7 +1374,9 @@
       "source": "search: open dataset access program for research",
       "summary": "NWO wants research data that result from publicly funded research to be found, accessible, interoperable and reusable (FAIR) available to other researchers.",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "e8c13c0f9b71",
@@ -1240,7 +1392,9 @@
       "source": "search: open dataset access program for research",
       "summary": "resources within the [_All of Us_ Research Hub](https://support.researchallofus.org/hc/en-us/articles/Executive%20Summary%20This%20document%20describes%20the%20framework%20by%20which%20individuals%20will%20access%20All%20of%20Us%20data%20resources%20within%20the%20All%20of%20Us%20Research%20Hub.%20Salient%20features%20include:%20%E2%97%8F%20The%20framework%20is%20inclusive;%20in%20particular,%20da",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "c50eeb6c884f",
@@ -1256,7 +1410,9 @@
       "source": "search: open dataset access program for research",
       "summary": "Everything you need to know about making your research data open and FAIR. **Here at F1000Research, we’re big advocates for open data.** We believe that sharing research data can accelerate the pace of discovery, provide credit and recognition for authors, and even improve public trust in research (but more on that later). We’re asking you to add one more thing to this list: **open data**. On this",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "6d90d470e49d",
@@ -1272,7 +1428,9 @@
       "source": "search: open dataset access program for research",
       "summary": "# Open Data, Software and Code Guidelines. These guidelines relate to the Gates Open Research policy on data availability, which requires all authors to share the underlying data which relates to their article. If you cannot share your data, for example for ethical reasons, a limited number of exceptions to these guidelines are provided below. 3. Your dataset(s) must have a persistent identifier (",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "c4ca9fa6c4fa",
@@ -1288,7 +1446,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "The Strategy Research Foundation (SRF) of the Strategic Management Society (SMS) announces its 2026 Early Career Research Grant Program and calls for grant proposals that will support early career strategy scholars in advancing a research project in the field of strategic management. Early Career Research Grant funds are intended to supplement other financial resources available to early career sc",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "49a3fbeaa049",
@@ -1304,7 +1464,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "The IHPBA Early Career Research Seed Grant supports emerging HPB surgeons in launching independent, high-quality research. Developed by the IHPBA Early",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "0358715fc362",
@@ -1320,7 +1482,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "##### Main navigation. ##### Main navigation MOBILE. # Starting Grant. **Are you a talented early-career scientist who has already produced excellent supervised work, is ready to work independently and shows potential to be a research leader? Check out the Parental leave webpage and the latest ERC Work Programme to find the specific rules regarding eligibility criteria. From 2023, the European Res",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "c1afecb10a21",
@@ -1336,7 +1500,9 @@
       "source": "search: seed funding early career researcher gra",
       "summary": "*   [.aabb.org aabb.org 4](https://www.aabb.org/foundation/early-career-scientific-research-grants-program#)**AABBCustomerToken[x2]**Stores token to allow user to interact with site.**Maximum Storage Duration**: Session**Type**: HTTP Cookie  **AABBDomainCookie[x2]**Stores user data for application use.**Maximum Storage Duration**: 30 days**Type**: HTTP Cookie. *   [Adobe Inc.1](https://www.aabb.or",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "dafc4a674f75",
@@ -1352,7 +1518,9 @@
       "source": "search: research data repository access program ",
       "summary": "Online research data repositories are now pragmatic realities. Most discovery in the future will be predicated on the sharing and synthesis of data.",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "5c318092b503",
@@ -1368,7 +1536,9 @@
       "source": "search: research data repository access program ",
       "summary": "IES is implementing a new Public Access Plan over the course of Fiscal Years (FY) 2025 and 2026 that will affect all new awardees.",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "82f92c2ac5bf",
@@ -1384,7 +1554,9 @@
       "source": "search: research data repository access program ",
       "summary": "Scientific Data mandates authors submit datasets to an appropriate public data repository. Data should be submitted to discipline-specific, community-",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "b1334c074e03",
@@ -1400,7 +1572,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "### OPEN DATA MICCAI 2026. We are pleased to announce the third edition of Open Data at MICCAI 2026. As medical machine learning continues to advance, access to diverse, representative, and inclusive datasets remains a key bottleneck for addressing global healthcare challenges. The Open Data initiative aims to foster collaboration and innovation by encouraging the sharing of high-quality medical i",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "c737acc5f160",
@@ -1416,7 +1590,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "We're inviting researchers worldwide to apply for funding to advance ocean governance using publicly available data on human activity at sea.",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "e1450af255da",
@@ -1432,7 +1608,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "Logo for Global Fishing Watch featuring an abstract fish symbol in red and blue to the left of the organization name written in dark gray text. Global Fishing Watch’s open ocean research grant program aims to enhance ocean governance by publicly sharing data on human activity at sea through the expansion of our community of practice. By collaborating with global researchers to apply our core techn",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "dee436afc0a0",
@@ -1448,7 +1626,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "The Swedish Government's objective is for the transition to open access to research data to be completed by 2026. The purpose of open access to",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "a84a35c69538",
@@ -1464,7 +1644,9 @@
       "source": "search: open dataset access grant researchers 20",
       "summary": "US government to make all research it funds open access on publication - Policy will go into effect in 2026, apply to everything that gets",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "071334094473",
@@ -1480,7 +1662,9 @@
       "source": "search: early career researcher award nomination",
       "summary": "Friday, February 20th, 2026: Deadline for submission of nomination packages. · Friday, March 20th, 2026 Saturday, April 4th: Notification of the winner, selected",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "f7924e2aa984",
@@ -1496,7 +1680,9 @@
       "source": "search: early career researcher award nomination",
       "summary": "## 2026 Annual Call for Nominations to Highlight Early Career Scientists Conducting Research within the Mission of the NCI Division of Cancer Prevention. **Purpose** - The purpose for this call for nominations is to highlight early career scientists who are advancing research within the areas supported by the Division of Cancer Prevention (DCP) at the National Cancer Institute (NCI). The individua",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "695199d8b449",
@@ -1512,7 +1698,9 @@
       "source": "search: early career researcher award nomination",
       "summary": "To be eligible for the 2026 Early Career Award, researchers should have completed their PhD degree in 2024 or 2025. Exceptions to this rule may however be",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "d84ca624b2f8",
@@ -1528,7 +1716,9 @@
       "source": "search: early career researcher award nomination",
       "summary": "# IAG Early Career Researcher Award 2026. Our Early Career Researcher Award is made annually to a scientist in the early years of their profession for research that closely reflects the goals of our Association. We are proud to announce that the winner of the 2025 Award is Xiuhong Liao from the China University of Geosciences (CUG). Her research focuses on advancing analytical methods and developi",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "bb05dc8f917a",
@@ -1544,7 +1734,9 @@
       "source": "search: early career researcher award nomination",
       "summary": "This initiative is part of the IPVS’ mission of fostering career development and excellence in papillomavirus-related research. The application process for the **IPVS Ea**rly** Career Research Training Award 2026** is currently closed. The objective of the Award is to fund **short training opportunities** for students and early career researchers for training they are unable to receive at their ho",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "2067bbee7240",
@@ -1560,7 +1752,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "Top 15 Funded Summer School Programs Still Open in 2026. # Top 15 Funded Summer School Programs Still Open in 2026. Every year, universities and global organizations open summer programs for students. This list brings together funded summer schools that are still open for application. They include academic programs, research schools, and interdisciplinary training. It is more academic and research",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "65ce2ee64e99",
@@ -1576,7 +1770,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "Through the generosity of our members, 31 scholarship opportunities are available for 2026 to foster a vibrant scholarly community for graduate students and",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "cfca524da517",
@@ -1592,7 +1788,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "The Global South scholarship is open to students currently enrolled in Political Science PhD programs in institutions located in the Global South. The",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "2c9a25c210d1",
@@ -1608,7 +1806,9 @@
       "source": "search: summer school scholarship PhD students 2",
       "summary": "# Scholarships for Summer. During the school year, it can be difficult to balance constant scholarship deadlines with a schedule packed with. Fortunately, there are many scholarships available with summer deadlines — if you know. Scholarships with summer deadlines are attractive because students have more time to complete them. also have some drawbacks, as reference writers may be slow to respond ",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "2db603c27331",
@@ -1624,7 +1824,9 @@
       "source": "search: conference travel grant application rese",
       "summary": "# ESERA Travel Grants 2026. ### Travel Fellowships. ESERA is offering travel grants of up to 1.000 euros for early career researchers in the field of research on science education. The grants are for visits abroad to meet researchers with expertise relevant to applicants’ research. The next call (for visits in 2027) opens by October, 2026, and closes in mid-January 2027. For 2026, the executive bo",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     },
     {
       "id": "1fc64c301de4",
@@ -1640,7 +1842,9 @@
       "source": "search: conference travel grant application rese",
       "summary": "DMM Conference Travel Grants are aimed at early-career researchers wanting to attend scientific meetings, conferences, workshops and training courses relating to the areas of research covered by the journal.\\*. DMM will consider applications to attend virtual and online scientific meetings, conferences, workshops and training courses. Applicants will usually be PhD students and post-doctoral resea",
       "score": 30,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-06",
+      "first_seen": "2026-05-29",
+      "is_new": false
     }
   ]
 }
