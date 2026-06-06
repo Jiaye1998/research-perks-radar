@@ -38,6 +38,24 @@ curated:
   - name: "Overleaf for Education"
     url: "https://www.overleaf.com/edu"
     category: software
+  - name: "Schmidt Science Fellowship for early career researchers"
+    url: "https://schmidtsciencefellows.org/fellowship/"
+    category: awards
+  - name: "L'Oreal-UNESCO For Women in Science Fellowship awards"
+    url: "https://www.forwomeninscience.com/"
+    category: awards
+  - name: "AWS Open Data registry datasets for researchers"
+    url: "https://registry.opendata.aws/"
+    category: data
+  - name: "Registry of Research Data Repositories (re3data)"
+    url: "https://www.re3data.org/"
+    category: data
+  - name: "Machine Learning Summer School travel grants and scholarships"
+    url: "https://www.mlss.cc/"
+    category: events
+  - name: "Cold Spring Harbor Laboratory meetings and courses scholarships"
+    url: "https://meetings.cshl.edu/"
+    category: events
 
 rss:
   - name: "Grants.gov New Opportunities"
@@ -61,6 +79,16 @@ search:
     category: data
   - query: "seed funding early career researcher grant 2026"
     category: funding
+  - query: "research data repository access program for academics 2026"
+    category: data
+  - query: "open dataset access grant researchers 2026"
+    category: data
+  - query: "early career researcher award nomination 2026"
+    category: awards
+  - query: "summer school scholarship PhD students 2026"
+    category: events
+  - query: "conference travel grant application researchers 2026"
+    category: events
 
 reddit:
   - subreddit: "PhD"
