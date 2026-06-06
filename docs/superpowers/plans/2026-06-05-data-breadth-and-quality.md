@@ -374,9 +374,37 @@ git commit -m "ci: validate sources and run tests on PRs and pushes"
 - Modify: `pipeline/rules/extract.py` (the deadline section, lines ~32-55)
 - Modify: `tests/test_extract.py`
 
-- [ ] **Step 1: Add the failing test**
+- [ ] **Step 1: Add the failing test + make existing deadline cases deterministic**
 
-Append to `tests/test_extract.py`:
+First, re-introduce the date import and a fixed `TODAY` at the top of
+`tests/test_extract.py` (Task 1 removed the then-unused constant). Change the
+top imports block to:
+
+```python
+"""Golden tests pinning current behavior of rules/extract.py — no mocks."""
+from datetime import date
+
+import pytest
+
+from rules.extract import extract_amount, extract_deadline, extract_region
+
+TODAY = date(2026, 6, 5)
+```
+
+Then pass `today=TODAY` to the existing month-first/iso deadline test so it
+stays valid after the floor becomes relative (otherwise it rots in future
+years):
+
+```python
+@pytest.mark.parametrize("text,expected", [
+    ("Applications close March 15, 2026.", "2026-03-15"),
+    ("Apply by 2026-09-01 for funding.", "2026-09-01"),
+])
+def test_extract_deadline_month_first_and_iso(text, expected):
+    assert extract_deadline(text, today=TODAY) == expected
+```
+
+Finally append the new failing test:
 
 ```python
 def test_deadline_floor_is_relative_to_today():

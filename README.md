@@ -5,7 +5,7 @@
 **Live site:** _enable GitHub Pages, then update this link_ → `https://<you>.github.io/research-perks-radar/`
 
 <!--STATS-->
-**23 live perks** · ai_compute: 16 · funding: 3 · software: 4 · data: 0 · awards: 0 · events: 0 · updated 2026-06-05
+**35 live perks** · ai_compute: 16 · funding: 3 · software: 4 · data: 7 · awards: 3 · events: 2 · updated 2026-06-05
 <!--/STATS-->
 
 ---

@@ -17,3 +17,6 @@ Thumbs.db
 # env
 .env
 .env.local
+
+# claude code session dir
+.claude/

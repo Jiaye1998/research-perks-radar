@@ -11,6 +11,11 @@
 # `category` is an optional hint (one of: ai_compute, funding, software,
 # data, awards, events). The rule engine will still re-classify, but a hint
 # improves accuracy for ambiguous sources.
+#
+# Validate your edits before opening a PR (no network, this is the CI gate):
+#     python validate_sources.py
+# Optionally check a source actually returns candidates:
+#     python smoke_sources.py
 # ---------------------------------------------------------------------------
 
 curated:
@@ -38,6 +43,21 @@ curated:
   - name: "Overleaf for Education"
     url: "https://www.overleaf.com/edu"
     category: software
+  - name: "Schmidt Science Fellowship for early career researchers"
+    url: "https://schmidtsciencefellows.org/fellowship/"
+    category: awards
+  - name: "L'Oreal-UNESCO For Women in Science Fellowship awards"
+    url: "https://www.forwomeninscience.com/"
+    category: awards
+  - name: "AWS Open Data registry datasets for researchers"
+    url: "https://registry.opendata.aws/"
+    category: data
+  - name: "Machine Learning Summer School travel grants and scholarships"
+    url: "https://www.mlss.cc/"
+    category: events
+  - name: "Cold Spring Harbor Laboratory meetings and courses scholarships"
+    url: "https://meetings.cshl.edu/"
+    category: events
 
 rss:
   - name: "Grants.gov New Opportunities"
@@ -61,6 +81,16 @@ search:
     category: data
   - query: "seed funding early career researcher grant 2026"
     category: funding
+  - query: "research data repository access program for academics 2026"
+    category: data
+  - query: "open dataset access grant researchers 2026"
+    category: data
+  - query: "early career researcher award nomination 2026"
+    category: awards
+  - query: "summer school scholarship PhD students 2026"
+    category: events
+  - query: "conference travel grant application researchers 2026"
+    category: events
 
 reddit:
   - subreddit: "PhD"
