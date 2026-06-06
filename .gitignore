@@ -4,6 +4,9 @@ web/.next/
 web/out/
 npm-debug.log*
 
+# build-time copy of the feed (the workflow / local build copies data/perks.json here)
+web/public/perks.json
+
 # python
 __pycache__/
 *.pyc
