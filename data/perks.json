@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T02:05:51.407172+00:00",
+  "generated_at": "2026-06-06T02:20:00.790814+00:00",
   "count": 35,
   "by_category": {
     "ai_compute": 16,
@@ -17,14 +17,14 @@
       "provider": "nsf.gov",
       "amount": null,
       "deadline": "2026-06-15",
-      "days_left": 9,
+      "days_left": 10,
       "status": "closing_soon",
       "region_restrictions": null,
       "url": "https://nsf.gov/funding/opportunities/ddrig-arctic-doctoral-dissertation-research-improvement-grants/nsf20-597",
       "source": "rss: NSF Funding Opportunities",
       "summary": "Full Proposal Deadline Date: June 15, 2026 Program Guidelines: NSF 20-597 The National Science Foundation (NSF) invites investigators at U.S. organizations to submit proposals for Doctoral Dissertation Research Improvement Grants (DDRIGs) to the Arctic Sciences Section, Office of Polar Programs (OPP) to conduct dissertation-level research about and related to the ... More at https://www.nsf.gov/fu",
       "score": 64,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "d140b3d111e8",
@@ -33,14 +33,14 @@
       "provider": "nsf.gov",
       "amount": null,
       "deadline": "2026-06-16",
-      "days_left": 10,
+      "days_left": 11,
       "status": "closing_soon",
       "region_restrictions": null,
       "url": "https://nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508",
       "source": "rss: NSF Funding Opportunities",
       "summary": "Letter of Intent Deadline Date: June 16, 2026 Program Guidelines: NSF 26-508 TechAccess: AI‑Ready America is a national-scale initiative to accelerate Artificial Intelligence (AI) readiness and adoption across the U.S. by strengthening coordination, leveraging partnerships and resources, filling gaps, and scaling what works—so local and state priorities can ... More at https://www.nsf.gov/funding/",
       "score": 64,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "e9e928355552",
@@ -56,7 +56,7 @@
       "source": "curated: Google for Education / Research Credits",
       "summary": "Make tomorrow’s research breakthroughs possible today. Accelerate your research with training, free credits, and resources from Google Cloud.",
       "score": 72,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "55b5ca6df069",
@@ -72,7 +72,7 @@
       "source": "curated: OpenAI Researcher Access Program",
       "summary": "",
       "score": 68,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "55c970accc61",
@@ -88,7 +88,7 @@
       "source": "curated: AWS Cloud Credit for Research",
       "summary": "The AWS Cloud Credit for Research program provides AWS Promotional Credit to researchers that are using technology to accelerate innovation.",
       "score": 68,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "346083d47ee9",
@@ -97,14 +97,14 @@
       "provider": "meetings.cshl.edu",
       "amount": null,
       "deadline": "2026-06-21",
-      "days_left": 15,
+      "days_left": 16,
       "status": "open",
       "region_restrictions": null,
       "url": "https://meetings.cshl.edu/",
       "source": "curated: Cold Spring Harbor Laboratory meetings and courses scholarships",
       "summary": "Cold Spring Harbor Meetings and Courses - Long Island, New York. Scientific Conferences and Courses For Research and Education",
       "score": 66,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "6f05cb342226",
@@ -120,7 +120,7 @@
       "source": "curated-link: GitHub Education / Student & Researcher",
       "summary": "",
       "score": 62,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "ec002143adce",
@@ -136,7 +136,7 @@
       "source": "curated: JetBrains Free Educational Licenses",
       "summary": "Access all JetBrains IDEs, plugins, and courses for your studies and future tech career.",
       "score": 62,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "a0f2f918a0db",
@@ -152,7 +152,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "04927f180bfe",
@@ -168,7 +168,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "691719fcecb4",
@@ -184,7 +184,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "90b213f56d2d",
@@ -200,7 +200,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "83488eb34eb9",
@@ -216,7 +216,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "481e85b6089a",
@@ -232,7 +232,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "76df117bc00d",
@@ -248,7 +248,7 @@
       "source": "curated-link: AWS Cloud Credit for Research",
       "summary": "",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "56b54b2f25ed",
@@ -264,7 +264,7 @@
       "source": "curated: Microsoft Azure for Researchers",
       "summary": "Learn how college institutions can reimagine the campus experience with Microsoft Education’s higher education solutions. Empower your students with Microsoft 365’s suite of product, including AI tools like Microsoft Copilot.",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "7be4800de0b6",
@@ -280,7 +280,7 @@
       "source": "curated: GitHub Education / Student & Researcher",
       "summary": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "42f97bb9e2d5",
@@ -296,7 +296,7 @@
       "source": "curated: Overleaf for Education",
       "summary": "Overleaf is an online LaTeX editor for universities and institutions that enables your students and staff to collaborate on research in real time.",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "7879a709f327",
@@ -312,7 +312,7 @@
       "source": "curated: L'Oreal-UNESCO For Women in Science Fellowship awards",
       "summary": "The World needs Science, and Science needs Women",
       "score": 58,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "054f0430d460",
@@ -328,7 +328,7 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 40,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "539a32505c8b",
@@ -344,7 +344,7 @@
       "source": "curated-link: OpenAI Researcher Access Program",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "8af3438d67cd",
@@ -360,7 +360,7 @@
       "source": "curated-link: OpenAI Researcher Access Program",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "58ca40849c95",
@@ -376,7 +376,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "86dda67dbad2",
@@ -392,7 +392,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "477ec52c0f2b",
@@ -408,7 +408,7 @@
       "source": "curated-link: Google for Education / Research Credits",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "20388d6c7718",
@@ -424,7 +424,7 @@
       "source": "curated-link: AWS Cloud Credit for Research",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "ad71e73035b8",
@@ -440,7 +440,7 @@
       "source": "curated: Schmidt Science Fellowship for early career researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "c587172bb33e",
@@ -456,7 +456,7 @@
       "source": "curated-link: L'Oreal-UNESCO For Women in Science Fellowship awards",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "ce4c31e245bc",
@@ -472,7 +472,7 @@
       "source": "curated: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "9f2721a91d98",
@@ -488,7 +488,7 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "ac183edaf26a",
@@ -504,7 +504,7 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "738bd3e8ce81",
@@ -520,7 +520,7 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "9e89bbb93ab6",
@@ -536,7 +536,7 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "e29044220730",
@@ -552,7 +552,7 @@
       "source": "curated-link: AWS Open Data registry datasets for researchers",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     },
     {
       "id": "8226a9773f1b",
@@ -568,7 +568,7 @@
       "source": "curated: Machine Learning Summer School travel grants and scholarships",
       "summary": "",
       "score": 36,
-      "date_found": "2026-06-06"
+      "date_found": "2026-06-05"
     }
   ]
 }

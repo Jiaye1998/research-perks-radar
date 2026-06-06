@@ -70,3 +70,10 @@ def test_concrete_deadline_wins_over_rolling():
 ])
 def test_extract_amount_currencies(text, expected):
     assert extract_amount(text) == expected
+
+
+def test_deadline_month_first_not_mangled():
+    # Greedy separator must not eat the capital 'M' of the month (was 2027-03-01).
+    assert extract_deadline("Deadline March 3, 2027.", today=date(2026, 6, 5)) == "2027-03-03"
+    # Mixed-case keyword still matches (keywords stay case-insensitive).
+    assert extract_deadline("DEADLINE: April 9, 2027.", today=date(2026, 6, 5)) == "2027-04-09"

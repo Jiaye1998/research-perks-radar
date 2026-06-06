@@ -38,9 +38,8 @@ _NUMERIC = r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}"
 _ISO = r"\d{4}-\d{2}-\d{2}"
 
 _DATE_NEAR = re.compile(
-    r"(?:deadline|due|closes?|apply by|applications? close|submit by)\D{0,20}"
+    r"(?i:deadline|due|closes?|apply by|applications? close|submit by)\D{0,20}"
     rf"({_MONTH_FIRST}|{_DAY_FIRST}|{_NUMERIC}|{_ISO})",
-    re.I,
 )
 _NO_DEADLINE = re.compile(
     r"\b(rolling basis|rolling deadline|ongoing basis|no deadline|"
