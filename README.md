@@ -2,7 +2,7 @@
 
 > An open, auto-updating radar for research perks — free AI/compute credits, funding & grants, academic software discounts, datasets, awards, and travel support. Scanned daily, scored automatically, and matched to *your* CV right in your browser.
 
-**Live site:** _enable GitHub Pages, then update this link_ → `https://<you>.github.io/research-perks-radar/`
+**Live site:** **https://jiaye1998.github.io/research-perks-radar/**
 
 <!--STATS-->
 **35 live perks** · ai_compute: 16 · funding: 3 · software: 4 · data: 7 · awards: 3 · events: 2 · updated 2026-06-06
