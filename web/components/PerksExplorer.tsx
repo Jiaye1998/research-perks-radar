@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Perk, PerksFeed, Category, CATEGORY_META } from "@/lib/types";
 import PerkCard from "@/components/PerkCard";
 import CvPanel from "@/components/CvPanel";
+import { loadBookmarks, saveBookmarks } from "@/lib/bookmarks";
 
 const FILTERS: ("all" | Category)[] = [
   "all",
@@ -22,8 +23,36 @@ export default function PerksExplorer({ feed: initialFeed }: { feed: PerksFeed }
   const [filter, setFilter] = useState<"all" | Category>("all");
   const [q, setQ] = useState("");
   const [matched, setMatched] = useState(false);
+  const [region, setRegion] = useState("all");
+  const [dl, setDl] = useState<"any" | "has" | "soon" | "none">("any");
+  const [savedOnly, setSavedOnly] = useState(false);
+  const [saved, setSaved] = useState<Set<string>>(new Set());
+
+  // Bookmarks live in localStorage; load after mount so the build-time render
+  // (empty set) matches the first client render, then update.
+  useEffect(() => {
+    setSaved(loadBookmarks());
+  }, []);
+
+  function toggleSave(id: string) {
+    setSaved((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      saveBookmarks(next);
+      return next;
+    });
+  }
 
   const perks = feed?.perks ?? [];
+
+  const regions = useMemo(() => {
+    const s = new Set<string>();
+    perks.forEach((p) => {
+      if (p.region_restrictions) s.add(p.region_restrictions);
+    });
+    return [...s].sort();
+  }, [perks]);
 
   function onMatched(results: { id: string; fit: number; reason: string }[]) {
     const map = new Map(results.map((r) => [r.id, r]));
@@ -68,6 +97,13 @@ export default function PerksExplorer({ feed: initialFeed }: { feed: PerksFeed }
   const visible = useMemo(() => {
     let list = perks;
     if (filter !== "all") list = list.filter((p) => p.category === filter);
+    if (region !== "all")
+      list = list.filter((p) => p.region_restrictions === region);
+    if (dl === "has") list = list.filter((p) => p.deadline);
+    else if (dl === "soon")
+      list = list.filter((p) => p.status === "closing_soon");
+    else if (dl === "none") list = list.filter((p) => !p.deadline);
+    if (savedOnly) list = list.filter((p) => saved.has(p.id));
     if (q.trim()) {
       const s = q.toLowerCase();
       list = list.filter(
@@ -80,7 +116,7 @@ export default function PerksExplorer({ feed: initialFeed }: { feed: PerksFeed }
     if (matched)
       return [...list].sort((a, b) => (b.fit ?? -1) - (a.fit ?? -1));
     return list;
-  }, [perks, filter, q, matched]);
+  }, [perks, filter, region, dl, savedOnly, saved, q, matched]);
 
   // Fixed locale + UTC so the build-time render matches client hydration
   // (avoids a hydration mismatch from differing system locale/timezone).
@@ -154,6 +190,37 @@ export default function PerksExplorer({ feed: initialFeed }: { feed: PerksFeed }
               {f === "all" ? "All" : CATEGORY_META[f].label}
             </button>
           ))}
+          <select
+            className="filter-select"
+            value={region}
+            onChange={(e) => setRegion(e.target.value)}
+            aria-label="Filter by region"
+          >
+            <option value="all">All regions</option>
+            {regions.map((r) => (
+              <option key={r} value={r}>
+                {r}
+              </option>
+            ))}
+          </select>
+          <select
+            className="filter-select"
+            value={dl}
+            onChange={(e) => setDl(e.target.value as typeof dl)}
+            aria-label="Filter by deadline"
+          >
+            <option value="any">Any deadline</option>
+            <option value="has">Has deadline</option>
+            <option value="soon">Closing soon</option>
+            <option value="none">No deadline</option>
+          </select>
+          <button
+            type="button"
+            className={`pill ${savedOnly ? "active" : ""}`}
+            onClick={() => setSavedOnly((v) => !v)}
+          >
+            ★ Saved
+          </button>
           <input
             className="search"
             placeholder="Search…"
@@ -164,7 +231,13 @@ export default function PerksExplorer({ feed: initialFeed }: { feed: PerksFeed }
 
         <div className="grid">
           {visible.map((p, i) => (
-            <PerkCard key={p.id} perk={p} i={i} />
+            <PerkCard
+              key={p.id}
+              perk={p}
+              i={i}
+              saved={saved.has(p.id)}
+              onToggleSave={toggleSave}
+            />
           ))}
         </div>
         {visible.length === 0 && (
