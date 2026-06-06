@@ -2,6 +2,11 @@
 
 > An open, auto-updating radar for research perks — free AI/compute credits, funding & grants, academic software discounts, datasets, awards, and travel support. Scanned daily, scored automatically, and matched to *your* CV right in your browser.
 
+[![Daily Radar](https://github.com/Jiaye1998/research-perks-radar/actions/workflows/daily.yml/badge.svg)](https://github.com/Jiaye1998/research-perks-radar/actions/workflows/daily.yml)
+[![CI](https://github.com/Jiaye1998/research-perks-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Jiaye1998/research-perks-radar/actions/workflows/ci.yml)
+[![Live perks](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fjiaye1998.github.io%2Fresearch-perks-radar%2Fperks.json&query=%24.count&label=live%20perks&color=1d6fff)](https://jiaye1998.github.io/research-perks-radar/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 **Live site:** **https://jiaye1998.github.io/research-perks-radar/**
 
 <!--STATS-->
