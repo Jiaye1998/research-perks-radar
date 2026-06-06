@@ -1,27 +1,5 @@
-import fs from "fs";
-import path from "path";
-import { PerksFeed } from "@/lib/types";
 import PerksExplorer from "@/components/PerksExplorer";
-
-// Read the feed at BUILD time so every perk is baked into the static HTML
-// (this is what makes the content crawlable). Falls back to an empty feed so
-// the build never crashes if perks.json is missing.
-function loadFeed(): PerksFeed {
-  try {
-    const raw = fs.readFileSync(
-      path.join(process.cwd(), "public", "perks.json"),
-      "utf-8"
-    );
-    return JSON.parse(raw) as PerksFeed;
-  } catch {
-    return {
-      generated_at: "",
-      count: 0,
-      by_category: {} as PerksFeed["by_category"],
-      perks: [],
-    };
-  }
-}
+import { loadFeed } from "@/lib/feed";
 
 export default function Page() {
   const feed = loadFeed();
