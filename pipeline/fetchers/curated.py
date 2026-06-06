@@ -15,6 +15,23 @@ _SIGNAL_WORDS = (
     "eligibility", "deadline",
 )
 
+# Child links pointing at these hosts are papers/citations, not perks.
+_NOISE_HOSTS = (
+    "arxiv.org", "doi.org", "biorxiv.org", "medrxiv.org",
+    "semanticscholar.org", "researchgate.net", "ncbi.nlm.nih.gov",
+)
+
+
+def _looks_like_noise(text: str, href: str) -> bool:
+    """True if a scraped child link is a paper/citation rather than a perk."""
+    host = urlparse(href).netloc.lower().removeprefix("www.")
+    if any(host == h or host.endswith("." + h) for h in _NOISE_HOSTS):
+        return True
+    # Author lists / citations carry several commas; real opportunity titles rarely do.
+    if text.count(",") >= 2:
+        return True
+    return False
+
 
 def fetch_curated(entries: list[dict]) -> list[Candidate]:
     out: list[Candidate] = []
@@ -51,6 +68,8 @@ def fetch_curated(entries: list[dict]) -> list[Candidate]:
                 continue
             href = urljoin(base, a["href"])
             if href in seen or href == url:
+                continue
+            if _looks_like_noise(text, href):
                 continue
             seen.add(href)
             out.append(Candidate(title=text, url=href,
