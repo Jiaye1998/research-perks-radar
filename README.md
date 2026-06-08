@@ -15,6 +15,28 @@
 
 [![Research Perks Radar — the live site](docs/screenshot.png)](https://jiaye1998.github.io/research-perks-radar/)
 
+## Use with Codex
+
+This repository includes a Codex Skill for working with Research Perks Radar.
+
+In Codex, ask:
+
+```text
+Install the Codex Skill from https://github.com/Jiaye1998/research-perks-radar/tree/main/skills/research-perks-radar
+```
+
+Then restart Codex or open a new thread so the Skill is picked up.
+
+After installation, you can ask Codex things like:
+
+```text
+Use the Research Perks Radar Skill to refresh the data and run the checks.
+```
+
+```text
+Use the Research Perks Radar Skill to update the web output after a data refresh.
+```
+
 ---
 
 ## What it does
