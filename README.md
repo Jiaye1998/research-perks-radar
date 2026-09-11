@@ -10,7 +10,7 @@
 **Live site:** **https://jiaye1998.github.io/research-perks-radar/**
 
 <!--STATS-->
-**103 live perks** · ai_compute: 27 · funding: 19 · software: 4 · data: 21 · awards: 17 · events: 15 · updated 2026-09-10
+**86 live perks** · ai_compute: 23 · funding: 17 · software: 4 · data: 13 · awards: 13 · events: 16 · updated 2026-09-11
 <!--/STATS-->
 
 [![Research Perks Radar — the live site](docs/screenshot.png)](https://jiaye1998.github.io/research-perks-radar/)
